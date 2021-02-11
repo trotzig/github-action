@@ -658,7 +658,7 @@ See [example-install-command.yml](.github/workflows/example-install-command.yml)
 
 ### Command prefix
 
-You can prefix the default test command using the `command-prefix` option. This is useful for example when running [Percy](https://docs.percy.io/docs/cypress), which requires the test command to be wrapped with `percy exec --`.
+You can prefix the default test command using the `command-prefix` option. This is useful for example when running [Percy](https://docs.percy.io/docs/cypress) or [Happo](https://docs.happo.io/docs/cypress) which both require the test command to be wrapped: `percy exec --` (Percy), or `happo-cypress --` (Happo).
 
 ```yml
 name: Visual
